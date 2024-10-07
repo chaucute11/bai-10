@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+<style>
+    .section-1 .inner-wrap {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .section-1 .inner-title h2 {
+        background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+        text-align: center;
+        padding: 10px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .section-1 .inner-body {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .section-1 .card {
+        margin-bottom: 20px;
+        border: 0;
+    }
+
+    .section-1 .card-header {
+        background-color: #fff;
+        border: 0;
+        padding: 0;
+    }
+
+    .section-1 .btn {
+        text-decoration: none;
+        color: #f57f20;
+        border: 1px solid transparent;
+    }
+
+    .section-1 .btn.collapsed {
+        color: #000;
+        border: 1px solid #ddd;
+        margin-bottom: 5px;
+    }
+</style>
+<div class="section-1">
+    <div class="container">
+        <div class="inner-wrap">
+            <div class="inner-title">
+                <h2>Câu hỏi thường gặp</h2>
+            </div>
+            <div class="accordion inner-body" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Logo là gì?
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            Logo là một hình ảnh đại diện thương hiệu được có thể được tạo thành từ văn bản và biểu
+                            tượng. Một logo tốt thể hiện những gì một thương hiệu làm và giá trị của thương hiệu.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Vì sao cần thiết kế Logo chuyên nghiệp?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Logo là điểm chạm đầu tiên với khách hàng và là nền tảng để xây dựng thương hiệu bền
+                            vững.
+                            Thiết kế Logo chuyên nghiệp là cách đảm bảo logo của doanh nghiệp được xây dựng dựa trên
+                            mục tiêu doanh nghiệp, có định hướng và gắn kết với khách hàng mục tiêu.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Một Logo công ty đủ tốt là như thế nào?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            Một Logo công ty đủ tốt là như thế nào?
+                            Một logo công ty tốt làm được ba điều:
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                aria-controls="collapseFour">
+                                Một Logo công ty đủ tốt là như thế nào?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            Một Logo công ty đủ tốt là như thế nào?
+                            Một logo công ty tốt làm được ba điều:
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .section-2 .inner-wrap {
+        border-radius: 10px;
+        margin-top: 20px;
+        overflow: hidden;
+        border: 1px solid #ddd;
+    }
+
+    .section-2 .inner-head {
+        background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+        text-align: center;
+        padding: 5px;
+    }
+
+    .section-2 .inner-head h2,
+    .inner-head p {
+        color: #fff;
+    }
+
+    .section-2 .inner-body {
+        padding: 20px;
+    }
+
+    .section-2 .inner-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .section-2 .btn-form {
+        padding: 5px 20px;
+        border-radius: 40px;
+        background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+        color: #fff;
+        border: 0;
+        font-weight: 500;
+    }
+</style>
+<div class="section-2">
+    <div class="container">
+        <div class="inner-wrap">
+            <div class="inner-head">
+                <h2 class="inner-title">Bạn vẫn chưa tìm được giao diện Website vừa ý</h2>
+                <p>Bạn có thể gợi ý cho chúng tôi Website bạn mong muốn, giúp bạn kinh doanh hiệu quả</p>
+            </div>
+            <form>
+                <div class="row inner-body">
+                    <div class="col-xl-6">
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Họ và tên *" required>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Số điện thoại*" required>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <textarea class="form-control" placeholder="Nội dung *"></textarea>
+                    </div>
+                </div>
+                <div class="inner-button">
+                    <button type="button" class="btn-form"><a href="#" target="_blank">Đăng ký tư vấn</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<style>
+    .section-3 .inner-header {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .section-3 .inner-header img {
+        width: 38%;
+        margin-bottom: 5px;
+    }
+
+    .section-3 .inner-header h5 {
+        margin-bottom: 5px;
+    }
+
+    .section-3 form {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .section-3 form button {
+        background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+        color: #fff;
+        border-radius: 50px;
+        border: 0;
+    }
+</style>
+<div class="section-3">
+    <div class="container">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Tư vấn
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header inner-header">
+                        <img src="https://cdn.daca.vn/media/logo/logo.svg">
+                        <h5 class="modal-title" id="exampleModalLabel">Gửi yêu cầu tư vấn miễn phí</h5>
+                        <p class="modal-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form action="https://www.w3schools.com/action_page.php" method="get" autocomplete="on"
+                        target="_blank">
+                        <row>
+                            <div class="col-xl-12">
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Họ và tên *" required name="name">
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Số điện thoại *" required name="sdt">
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Lĩnh vực kinh doanh" name="lvkd">
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="form-group">
+                                    <button type="submit" class="form-control text-center btn btn-primary">Gửi yêu
+                                        cầu</button>
+                                </div>
+                            </div>
+                        </row>
+                    </form>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .section-4 .inner-head {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .section-4 .nav-link:focus {
+        color: blue;
+        border: none;
+       
+    }
+    .section-4 .nav-link{
+        margin-bottom: 10px;
+      
+    }
+    .section-4 .nav-link:hover {
+        border: none;
+    }
+
+    .section-4 .nav-link.active {
+        border: none;
+    }
+
+    .section-4 .box {
+        padding: 5px;
+        border: 1px solid #ddd;
+        width: 20%;
+        text-align: center;
+    }
+
+    .section-4 .box .inner-image {
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+
+    .section-4 .box img {
+        width: 100%;
+        object-fit: cover;
+        height: auto;
+    }
+
+    .section-4 .box h2 {
+        font-size: 14px;
+    }
+</style>
+<div class="section-4">
+    <div class="container">
+        <nav class="inner-head">
+            <div class="inner-title">
+                <h2>Thảm khách sạn, tiệc cưới</h2>
+            </div>
+            <div class="nav nav-tabs inner-head" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home"
+                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">Sản phẩm mới</button>
+                <button class="nav-link" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button"
+                    role="tab" aria-controls="nav-profile" aria-selected="false">Sản phẩm nổi bật</button>
+                <button class="nav-link" id="nav-contact-tab" data-toggle="tab" data-target="#nav-contact" type="button"
+                    role="tab" aria-controls="nav-contact" aria-selected="false">Khuyến mãi</button>
+            </div>
+
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="box">
+                    <div class="inner-image">
+                        <img
+                            src="https://cdn.thamtraisanhp.vn/thumbs/th%E1%BA%A3m%20kh%C3%A1ch%20s%E1%BA%A1n%2C%20ti%E1%BB%87c%20c%C6%B0%E1%BB%9Bi/tham%20khach%20san%202_thumb_500.jpg">
+                    </div>
+                    <div class="inner-title">
+                        <h2>Thảm khách sạn hoa văn</h2>
+                    </div>
+                    <div class="inner-price">300,000đ</div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">sp nổi bật
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">khuyến mại
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
